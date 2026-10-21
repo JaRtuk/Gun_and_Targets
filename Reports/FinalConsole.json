@@ -1,0 +1,41 @@
+{
+  "success": true,
+  "command": "command console get",
+  "data": {
+    "command": "console get",
+    "parameters": {
+      "level": "warn",
+      "tail": "20"
+    },
+    "result": {
+      "entries": [],
+      "cursor": 0,
+      "session": "db16996339bb4803b2b8f7d770776a9a",
+      "returned": 0,
+      "dropped": false,
+      "reset": false,
+      "counts": {
+        "error": 0,
+        "warn": 0,
+        "log": 0
+      },
+      "groundTruth": {
+        "sampledUtc": "2026-10-21T18:26:08.469165Z",
+        "ageMs": 30,
+        "compilationFailed": false,
+        "compiling": false,
+        "consoleErrors": 0,
+        "consoleWarnings": 0,
+        "consoleLogs": 0,
+        "seeded": true
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/home/jaba/dev/Gun_And_Targets"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

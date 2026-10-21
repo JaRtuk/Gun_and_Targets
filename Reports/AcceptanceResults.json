@@ -1,0 +1,56 @@
+{
+  "success": true,
+  "command": "command test status",
+  "data": {
+    "command": "test status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 21.39,
+      "summary": {
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "CannonAcceptanceTests.A_B_KeyboardMovementRotationFireAndTrajectory",
+          "Status": "Passed",
+          "Duration": 1.8308502,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "CannonAcceptanceTests.C_D_FiveRealFlightsMatchSavedPreview",
+          "Status": "Passed",
+          "Duration": 12.7416261,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "CannonAcceptanceTests.E_AutomaticTargetsHaveCorrectPhysicsCapMotionAndLifetime",
+          "Status": "Passed",
+          "Duration": 5.2990446,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "CannonAcceptanceTests.F_OnlyProjectileHitsCountOncePerTarget",
+          "Status": "Passed",
+          "Duration": 1.4981869,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/home/jaba/dev/Gun_And_Targets"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

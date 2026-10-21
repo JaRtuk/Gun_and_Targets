@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "command": "command script eval",
+  "data": {
+    "command": "script eval",
+    "parameters": {
+      "code": "var c=UnityEngine.Object.FindFirstObjectByType<CannonController>(); return new { scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene().path, muzzle=c.muzzle.name, child=c.muzzle.IsChildOf(c.transform), projectile=UnityEditor.AssetDatabase.GetAssetPath(c.projectilePrefab), target=UnityEditor.AssetDatabase.GetAssetPath(UnityEngine.Object.FindFirstObjectByType<TargetSpawner>().targetPrefab), build=UnityEditor.EditorBuildSettings.scenes.Select(s=>s.path).ToArray() };"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "scene": "Assets/Scenes/CannonRange.unity",
+        "muzzle": "Muzzle",
+        "child": true,
+        "projectile": "Assets/Prefabs/Projectile.prefab",
+        "target": "Assets/Prefabs/AirTarget.prefab",
+        "build": [
+          "Assets/Scenes/CannonRange.unity"
+        ]
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/home/jaba/dev/Gun_And_Targets"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

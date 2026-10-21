@@ -1,0 +1,8 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"state\": \"met\",\n  \"met\": true,\n  \"timedOut\": false,\n  \"member\": \"UnityEngine.Time.frameCount\",\n  \"op\": \"changed\",\n  \"value\": 3380,\n  \"initialValue\": 3367,\n  \"elapsedMs\": 116,\n  \"framesObserved\": 2,\n  \"history\": [\n    {\n      \"value\": 3367,\n      \"elapsedMs\": 12\n    },\n    {\n      \"value\": 3380,\n      \"elapsedMs\": 116\n    }\n  ]\n}"
+    }
+  ]
+}
